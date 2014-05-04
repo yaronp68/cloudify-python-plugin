@@ -58,7 +58,7 @@ for example:
                       properties:
                           script_path: 'scripts/my-new-script.py'
 
-This means the operation 'my_new_operation' of interface 'my_new_interface' for the type 'my_new_type' is mapped to the Bash plugin, with the 'my-new-script.py' set for execution.
+This means the operation 'my_new_operation' of interface 'my_new_interface' for the type 'my_new_type' is mapped to the python plugin, with the 'my-new-script.py' set for execution.
 
 ## API
 
