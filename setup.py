@@ -2,14 +2,14 @@ __author__ = 'yaronparasol'
 
 from setuptools import setup
 
-PLUGINS_COMMON_VERSION = '3.0'
-PLUGINS_COMMON_BRANCH = "develop"
+PLUGINS_COMMON_VERSION = '3.0b1'
+PLUGINS_COMMON_BRANCH = '3.0b1'
 PLUGINS_COMMON = 'https://github.com/cloudify-cosmo/cloudify-plugins-common' \
     '/tarball/{0}'.format(PLUGINS_COMMON_BRANCH)
 
 setup(
     name='python-script-executor-plugin',
-    version='1.0',
+    version='1.0b1',
     author='Yaron Parasol',
     author_email='yaronpa@gigaspaces.com',
     packages=["python_script_executor"],
