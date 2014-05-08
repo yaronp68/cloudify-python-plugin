@@ -3,7 +3,7 @@
 This plugin allows the execution of python scripts as part of a node's lifecycle interface operations.
 
 
-- Build Status (develop) [![Build Status](https://secure.travis-ci.org/cloudify-cosmo/cloudify-python-plugin.png?branch=develop)](http://travis-ci.org/cloudify-cosmo/cloudify-python-plugin)
+- Build Status (master) [![Build Status](https://secure.travis-ci.org/cloudify-cosmo/cloudify-python-plugin.png?branch=master)](http://travis-ci.org/cloudify-cosmo/cloudify-python-plugin)
 
 ## Usage
 

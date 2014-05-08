@@ -1,2 +1,2 @@
 __author__ = 'elip'
-ctx['test'] = True
+ctx['test'] = True  # NOQA

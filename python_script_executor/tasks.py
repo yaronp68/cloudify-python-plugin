@@ -25,7 +25,8 @@ def run(ctx, script_path=None, **kwargs):
 
         Parameters:
 
-            ctx['scripts'] - A dictionary mapping lifecycle events to script paths.
+            ctx['scripts'] - A dictionary mapping lifecycle
+            events to script paths.
 
             script_path - The path to the script relative
                           to the blueprints root directory.
@@ -55,6 +56,3 @@ def get_script_to_run(ctx, script_path=None):
         return ctx.download_resource(scripts[operation_simple_name])
 
     raise RuntimeError('No script to run')
-
-
-
