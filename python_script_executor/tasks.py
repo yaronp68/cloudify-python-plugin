@@ -14,7 +14,8 @@
 #    * limitations under the License.
 
 
-from cloudify.decorators import operation
+from cloudify.decorators import operation 
+import copy
 
 
 @operation
@@ -37,9 +38,12 @@ def run(ctx, script_path=None, **kwargs):
             script to run.
     """
     script_to_run = get_script_to_run(ctx, script_path)
+    globals_copy = copy.copy(globals())
+    globals_copy['ctx'] = ctx
 
     if script_to_run:
-        execfile(script_to_run)
+        #execfile(script_to_run,locals(), globals())
+        execfile(script_to_run, globals_copy)
 
 
 def get_script_to_run(ctx, script_path=None):
